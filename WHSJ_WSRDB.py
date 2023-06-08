@@ -7,7 +7,7 @@
 from rsg.rsgGui import *
 from abaqusConstants import INTEGER, FLOAT
 # execDir = os.path.split(thisDir)[1]
-dialogBox = RsgDialog(title='Title', kernelModule='WHSJWSR7020RSG',
+dialogBox = RsgDialog(title='Title', kernelModule='WHSJ_WSR_RSG',
                       kernelFunction='main', includeApplyBtn=False, includeSeparator=False,
                       okBtnText='OK', applyBtnText='Apply', execDir=thisDir)
 RsgGroupBox(name='GroupBox_1', p='DialogBox', text='Title', layout='0')
