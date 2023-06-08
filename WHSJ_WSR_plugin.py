@@ -8,7 +8,7 @@ toolset = getAFXApp().getAFXMainWindow().getPluginToolset()
 toolset.registerGuiMenuButton(
     buttonText='WHSJ_WSR',
     object=Activator(os.path.join(thisDir, 'WHSJ_WSRDB.py')),
-    kernelInitString='import WHSJWSR7020RSG',
+    kernelInitString='import WHSJ_WSR_RSG',
     messageId=AFXMode.ID_ACTIVATE,
     icon=None,
     applicableModules=ALL,
